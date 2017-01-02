@@ -1,0 +1,6 @@
+config BR2_PACKAGE_UCCP420WLAN
+  bool "uccp420wlan"
+  depends on BR2_LINUX_KERNEL
+  help
+    SoftMAC (mac80211) based WiFi driver for Imagination's Explorer RPU uccp420.
+    This supports Dual Band WiFi with 2.4GHz - 2x2 b/g/n 40MHz, 5GHz - 2x2 a/n/11ac 80MHz modes

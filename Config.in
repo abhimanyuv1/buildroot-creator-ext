@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_CI40_CREATOR_PATH/package/uccp420wlan/Config.in"
