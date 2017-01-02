@@ -2,8 +2,9 @@ Building with buildroot
 ------------------------
 1. Clone buildroot from buildroot git (>=v2016.11)
 2. Clone current repo
-3. make BR2_EXTERNAL_CI40_CREATOR=/path/to/current/repo manuconfig/ci40_defconfig
-4. make
+3. make BR2_EXTERNAL_CI40_CREATOR=</path/to/current/repo> ci40_defconfig // For setting ci40 config
+4. make BR2_EXTERNAL_CI40_CREATOR=</path/to/current/repo> manuconfig // For config changes
+5. make
 
 
 uccp420wlan module
